@@ -1,0 +1,133 @@
+
+@media screen and (max-width: 1024px) {
+ #header .nav {
+  display:block;
+ }
+  .slicknav_menu {
+  display:none;
+ }
+ #header, .footer, .section {
+	padding-left: 10px;
+	padding-right: 10px;
+ }
+ .slider-block .gallery img { }
+ }
+ 
+ 
+ @media screen and (max-width: 800px) {
+.services .icons li {
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	}
+.services .icons li:last-child {
+	margin: 0 auto;
+	}
+#stage li .desc h3 {
+	font-size: 16px;
+	padding-top: 25%;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+ #header .nav {
+    display:none;
+	}
+ .slicknav_menu {
+    display:block;
+	}
+.slicknav_menu .slicknav_menutxt {
+	display: none;
+	}
+ #header {
+	background: url(../img/bg_770.jpg) no-repeat 50% 0;
+	}
+#header h1{
+	font-size: 36px;
+	line-height: 1.3;
+	}
+#header h2 {
+	font-size: 16px;
+	}
+.logo {
+	display: none;
+	}
+.blog img {
+	display: none;
+	}
+.blog li .col-right {
+	width: 100%;
+	}
+.clients-block blockquote {
+	display: none;
+	}
+.clients-block .bx-wrapper .bx-pager {
+	padding-top: 50px;
+	}
+.contact-form .form-block .form-group {
+	float: none;
+}
+.contact-form .form-block {
+	width: 97%;
+} 
+.contact-form .form-block textarea {
+	width: 92.57%;
+	}
+}
+
+
+ @media screen and (max-width: 550px) {
+.about .content .block-left, .about .content .block-right {
+	float: none;
+	width: auto;
+	}
+.about .content .block-left {
+	margin-bottom: 30px;
+	}
+
+#container li {
+	width: 47.44%;
+	}
+.contact-form .form-block p {
+	float: left;
+	margin-left: 30px;
+	padding-left: 0;
+}
+}
+ 
+ 
+ @media screen and (max-width: 370px) {
+.services .icons li {
+	width: 300px;
+	}
+.blog li .col-right h5 {
+	font-size: 14px;
+	padding: 0px 0 6px 0;
+} 
+.blog li .col-right .data span {
+	font-size: 16px;
+}
+.blog li .col-right .data strong {
+	font-size: 12px;
+	}
+#stage li .desc h3 {
+	padding-top: 15%;
+	}
+.contact-form .form-block form input[type="text"], .contact-form .form-block form input[type="email"] {
+	width: 310px;
+}
+.contact-form .form-block textarea {
+	width: 310px;
+}
+}
+
+
+@media screen and (max-width: 359px) {
+.contact-form .form-block form input[type="text"], .contact-form .form-block form input[type="email"] {
+	width: 270px;
+}
+.contact-form .form-block textarea {
+	width: 270px;
+}
+}
