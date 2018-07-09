@@ -12,7 +12,7 @@ version:   1.0
 
 /* Setting up the fonts */
 body {
-  background: #491e01 url(../img/bg_1.jpg) no-repeat 50% 0;
+  background: #491e01 url(../img/bg_1.jpg);
   font-family: 'Open Sans', Arial sans-serif;
 }
 
@@ -573,7 +573,7 @@ input[type="search"] {
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.banners li:hover .button {
+.banners .btn:hover .button {
 	background: #80943f;
 } 
 .banners .banner-1 span {
@@ -2216,23 +2216,24 @@ input[type="search"] {
 .footer-email-signup {
 	float: right;
 }
-.footer ul li {
+
+.footer ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #888;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
+	
 }
-.footer ul li a {
-	text-decoration: none;
-	color: #888;
-}
-.footer ul li:hover { 
+
+.footer ul li a:hover {
+	color: #3d3d3d;
 	-webkit-transform: translate(5px, 0);
 	-moz-transform: translate(5px, 0);
 	-o-transform: translate(5px, 0);
 }
-.footer ul li:hover a {
-	color: #3d3d3d;
-}
+
 .footer-email-signup h3 {
 	font-weight: 600;
 	font-size: 11px;
